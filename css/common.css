@@ -27,13 +27,13 @@ body {
 
 .sec .tit {
     max-width: 1200px;
-    margin: 0 auto 32px auto;
+    margin: 0 auto 50px auto;
 }
 
 .sec .tit h2 {
     font-size: 32px;
     font-weight: 700;
-    margin: 0 0 16px 0;
+    margin: 0 0 12px 0;
 }
 
 .sec .tit p {
