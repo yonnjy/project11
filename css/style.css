@@ -49,7 +49,7 @@
 
 .header .gnb>ul>li>a {
     display: block;
-    font-size: 18px;
+    font-weight: 500;
     line-height: 56px;
 }
 
@@ -156,8 +156,7 @@
 
 .main_vi .slogan strong {
     display: block;
-    margin: 0 0 8px 0;
-    font-weight: 500;
+    margin: 0 0 12px 0;
     color: #ddd;
 }
 
@@ -170,6 +169,7 @@
 .main_vi .slogan p {
     font-weight: 300;
     color: #ddd;
+    width: 370px;
     margin: 0 0 40px 0;
 }
 
@@ -177,9 +177,7 @@
     display: block;
     width: 170px;
     text-align: center;
-    line-height: 48px;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.2);
+    line-height: 40px;
     border: 1px solid #fff;
 }
 
@@ -192,11 +190,11 @@
 
 /* main_hosp */
 .main_hosp .logo {
-    margin: 0 0 16px 0;
+    margin: 0 0 12px 0;
 }
 
 .main_hosp .logo img {
-    width: 240px;
+    width: 160px;
 }
 
 .main_hosp .hosp_wrap {
@@ -261,7 +259,6 @@
 .main_bann .banner_slide figure {
     position: relative;
     height: 480px;
-    border-radius: 16px;
 }
 
 .main_bann .banner_slide .itm01 {
@@ -297,12 +294,11 @@
 
 .main_bann .banner_slide .slogan a {
     display: block;
-    line-height: 48px;
+    line-height: 40px;
     width: 170px;
     text-align: center;
     color: #666;
     border: 1px solid #888;
-    border-radius: 8px;
 }
 
 .main_bann .slick-dots {
@@ -340,7 +336,6 @@
 .main_noti .noti_wrap>* {
     flex: 1;
     border: 1px solid #ddd;
-    border-radius: 12px;
     background: #fff;
 }
 
@@ -376,7 +371,6 @@
 .main_noti .notice_box {
     position: relative;
     padding: 16px;
-    border-radius: 8px;
     margin: 0 0 8px 0;
     background: #f9f9f9;
 }
@@ -437,7 +431,6 @@
 
 .main_noti .service_box .btn_box>li {
     border: 1px solid #ddd;
-    border-radius: 8px;
     width: 140px;
 }
 
@@ -460,7 +453,6 @@
     line-height: 56px;
     width: 100%;
     border: 1px solid #ddd;
-    border-radius: 8px;
     padding: 0 0 0 16px;
 }
 
@@ -475,7 +467,6 @@
 .main_noti .quick_box a {
     display: block;
     width: 100%;
-    border-radius: 8px;
     padding: 20px 0;
     background: #444;
     text-align: center;
