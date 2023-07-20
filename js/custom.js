@@ -30,7 +30,11 @@ $(function () {
     $('.main_slide').slick({
         arrows: false,
         fade: true,
-        autoPlay: true,
+        speed: 800,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        pauseOnHover: false,
+        pauseOnFocus: false,
     });
 
     $('.main_vi .arrows .up').on('click', function () {
