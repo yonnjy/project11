@@ -37,10 +37,10 @@ $(function () {
         pauseOnFocus: false,
     });
 
-    $('.main_vi .arrows .up').on('click', function () {
+    $('.main_vi .arrows .left').on('click', function () {
         $('.main_slide').slick('slickPrev');
     });
-    $('.main_vi .arrows .down').on('click', function () {
+    $('.main_vi .arrows .right').on('click', function () {
         $('.main_slide').slick('slickNext');
     });
 
@@ -53,4 +53,15 @@ $(function () {
         $(this).addClass('on');
     });
 
+    $('.to_top').on('click', function () {
+        $('html, body').animate({ scrollTop: 0 }, 500);
+    });
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+            $('.btn_side').fadeIn(50);
+        } else {
+            $('.btn_side').fadeOut(50);
+        }
+    });
 });
